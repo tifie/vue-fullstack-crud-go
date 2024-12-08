@@ -5,7 +5,6 @@ import (
 	"github.com/samber/do"
 )
 
-
 func SetupRouter(router *gin.Engine, injector *do.Injector) {
-  TodoRouter(router, injector)
+	todoRouter(router, injector)
 }
